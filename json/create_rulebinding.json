@@ -1,0 +1,44 @@
+{
+    "scope": {
+        "clusters": {
+            "kafka-cluster": "kafka-id"
+        }
+    },
+    "resourcePatterns": [
+        {
+            "resourceType": "Group",
+            "name": "connect-cluster",
+            "patternType": "LITERAL"
+        },
+        {
+            "resourceType": "Group",
+            "name": "secret-registry",
+            "patternType": "LITERAL"
+        },
+        {
+            "resourceType": "Topic",
+            "name": "_confluent-monitoring",
+            "patternType": "LITERAL"
+        },
+        {
+            "resourceType": "Topic",
+            "name": "_confluent-secrets",
+            "patternType": "LITERAL"
+        },
+        {
+            "resourceType": "Topic",
+            "name": "connect-configs",
+            "patternType": "LITERAL"
+        },
+        {
+            "resourceType": "Topic",
+            "name": "connect-offsets",
+            "patternType": "LITERAL"
+        },
+        {
+            "resourceType": "Topic",
+            "name": "connect-statuses",
+            "patternType": "LITERAL"
+        }
+    ]
+}

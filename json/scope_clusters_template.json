@@ -1,0 +1,5 @@
+{
+    "clusters": {
+        "kafka-cluster": "kafka-id"
+    }
+}
